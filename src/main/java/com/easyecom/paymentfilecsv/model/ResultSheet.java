@@ -4,23 +4,6 @@ import java.util.List;
 
 public class ResultSheet {
 
-//    List<PaymentDetails> result;
-//
-//    public List<PaymentDetails> getResult() {
-//        return result;
-//    }
-//
-//    public void setResult(List<PaymentDetails> result) {
-//        this.result = result;
-//    }
-//
-//    public ResultSheet() {
-//    }
-//
-//    public ResultSheet(List<PaymentDetails> result) {
-//        this.result = result;
-//    }
-
     private String orderNumber;
     private int profit_loss;
     private Long transferredAmount;
@@ -67,5 +50,4 @@ public class ResultSheet {
         this.transferredAmount = transferredAmount;
         this.totalMarketplaceCharges = totalMarketplaceCharges;
     }
-
 }
