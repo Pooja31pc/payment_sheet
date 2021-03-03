@@ -41,7 +41,7 @@ public class CSVHelper {
                         Long.parseLong(csvRecord.get("Sale Amount")),
                         Long.parseLong(csvRecord.get("Cost Price")),
                         Long.parseLong(csvRecord.get("Transferred Amount")),
-                        Long.parseLong(csvRecord.get("Comission")),
+                        Long.parseLong(csvRecord.get("Commission")),
                         Long.parseLong(csvRecord.get("Payment Gateway")),
                         Long.parseLong(csvRecord.get("PickPack Fee"))
                 );

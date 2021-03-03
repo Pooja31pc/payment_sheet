@@ -44,10 +44,10 @@ public class ResultSheet {
     public ResultSheet() {
     }
 
-    public ResultSheet(String orderNumber, int profit_loss, Long transferredAmount, int totalMarketplaceCharges) {
+    public ResultSheet(String orderNumber, long profit_loss, long transferredAmount, long totalMarketplaceCharges) {
         this.orderNumber = orderNumber;
-        this.profit_loss = profit_loss;
+        this.profit_loss = (int) profit_loss;
         this.transferredAmount = transferredAmount;
-        this.totalMarketplaceCharges = totalMarketplaceCharges;
+        this.totalMarketplaceCharges = (int) totalMarketplaceCharges;
     }
 }
